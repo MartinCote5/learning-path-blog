@@ -16,6 +16,7 @@ class BlogPost < ApplicationRecord
     end
 
     def scheduled?
+        #testpourpousser
         published_at? && published_at > Time.current
     end
 end
